@@ -30,7 +30,7 @@ This project performs sentiment analysis on Twitter data using advanced NLP tech
 
 ## 📊 Dataset
 
-The dataset consists of tweets labeled for sentiment (positive/negative/neutral). Preprocessing steps clean and prepare the raw text data for modeling.
+The dataset, sourced from Kaggle, contains tweets labeled with sentiment categories: positive, negative, or neutral. The raw text data undergoes preprocessing to clean and prepare it for model training.
 
 ## 🧹 Preprocessing Pipeline
 
