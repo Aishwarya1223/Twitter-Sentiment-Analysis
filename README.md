@@ -44,11 +44,23 @@ The dataset consists of tweets labeled for sentiment (positive/negative/neutral)
 8. Lowercasing and punctuation handling
 
 ## 🧠 Model Training
+This project includes the development and fine-tuning of both custom and pre-trained models for text analysis:
 
-Models are fine-tuned using HuggingFace Transformers. Includes:
-- BERT
-- RoBERTa
-- DistilBERT
+🔧 Custom-Built Models:
+- LSTM – A standard Long Short-Term Memory network for sequence modeling.
+
+- BiLSTM – A bidirectional LSTM to capture context from both directions.
+
+- BiLSTM + Self-Attention – Enhanced with a self-attention mechanism to focus on the most relevant parts of the input sequence.
+
+🤗 Fine-Tuned Transformer Models (via Hugging Face):
+- BERT – Bidirectional Encoder Representations from Transformers.
+
+- RoBERTa – A robustly optimized version of BERT.
+
+- DistilBERT – A lightweight and faster version of BERT with minimal performance trade-off.
+
+These models were trained and evaluated for high performance on the target NLP tasks.
 
 Each model is trained with cross-validation and hyperparameter tuning.
 
