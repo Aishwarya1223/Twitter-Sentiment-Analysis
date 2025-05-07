@@ -26,14 +26,6 @@ This project performs sentiment analysis on Twitter data using advanced NLP tech
 - **Joblib** for model saving
 - **Datasets** from HuggingFace
 
-## ⚙️ Installation
-
-Install all required packages:
-
-```bash
-pip install -r requirements.txt
-```
-
 > You may need to reinstall some core packages like `numpy`, `pandas`, and `scikit-learn` as done in the notebook to resolve dependency issues.
 
 ## 📊 Dataset
