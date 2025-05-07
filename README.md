@@ -56,7 +56,7 @@ The dataset consists of tweets labeled for sentiment (positive/negative/neutral)
 Models are fine-tuned using HuggingFace Transformers. Includes:
 - BERT
 - RoBERTa
-- DistilBERT (optional)
+- DistilBERT
 
 Each model is trained with cross-validation and hyperparameter tuning.
 
