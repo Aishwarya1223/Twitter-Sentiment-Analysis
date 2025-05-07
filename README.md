@@ -87,6 +87,5 @@ Models are saved using `joblib` or HuggingFace's save utilities for reuse.
 
 ```
 Twitter_data_sentiment_analysis.ipynb    # Main notebook
-requirements.txt                         # List of packages (to be generated)
 README.md                                # Project documentation
 ```
